@@ -7,14 +7,20 @@ import {
   TouchableOpacity,
   View,
 } from 'react-native'
+
 import Icon from '@expo/vector-icons/Feather'
 
 import NLWLogo from '../src/assets/nlw-spacetime-logo.svg'
+
 import { Link, useRouter } from 'expo-router'
+
 import { useSafeAreaInsets } from 'react-native-safe-area-context'
+
 import { useState } from 'react'
+
 import * as ImagePicker from 'expo-image-picker'
 import * as SecureStore from 'expo-secure-store'
+
 import { api } from '../src/lib/api'
 
 export default function NewMemory() {
